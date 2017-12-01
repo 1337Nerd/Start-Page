@@ -16,7 +16,7 @@ h3 {
 body {
   background-color: #002b36;
   color: #657b83;
-  font-family: "Inconsolata", monospace;
+  font-family: "Iosevka", monospace;
   font-size: 15px;
 }
 
@@ -30,7 +30,6 @@ a, a:visited {
   display: block;
   padding-top: 2px;
   color: #2aa198;
-  font-weight: bold;
   text-decoration: none;
 }
 a:hover { color: #dc322f; }
@@ -106,5 +105,4 @@ input 	{
   border: none;
   color: #b58900;
   font-size: 1em;
-  font-weight: bold;
 }
