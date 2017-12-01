@@ -62,11 +62,6 @@ a:hover { color: #dc322f; }
   height: auto;
 }
 
-#search {
-  font-size: 1em;
-  font-weight: bold;
-}
-
 #searchbox {
   margin: 4px;
   padding: 8px;
