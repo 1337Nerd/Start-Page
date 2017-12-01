@@ -1,52 +1,69 @@
-<!DOCTYPE HTML>
-	<head>
-		<title>Homepage</title>
-		<meta charset="UTF-8">
-		<link rel="stylesheet" href="style.css" />
-	</head>
-	<body>
+<!DOCTYPE html>
+<html lang="en-us">
 
-		<div id="container">
-			<div id="header">
-				<h3 style="display: inline;"><span class="blue"> ~ </span> <span class="pink">❯</span> <span class="green">locate</span></h3>
-				<form method="get" action="https://www.google.com/search">
-					<input type="text" autofocus="autofocus" name="q" \>
-				</form>
+  <head>
+    <!-- document metadata -->
+    <meta charset="UTF-8">
 
-			</div>
-			<div id="links">
+    <!-- site metadata -->
+    <title>Launch</title>
 
-				<div class="linksbox">
-					<h3><span class="blue"> ~ </span> <span class="pink">❯</span> [<span class="green">General</span>]<span class="pink">:</span> ls</h3>
-			        <a class="cyan" target="blank" href="http://stackoverflow.com/">Stack Overflow</a>
-			        <a class="red"  target="blank" href="https://shancarter.github.io/mr-data-converter/">Mr Data Converter</a>
-					<a class="red"  target="blank" href="#">Tickets</a>
-			        <a class="cyan" target="blank" href="#">Youtube</a>
-			        <a class="cyan" target="blank" href="https://github.com/">Github</a>
-					<a class="red"  target="blank" href="#">7Cav</a>
-				</div>
+    <!-- style -->
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+  </head>
 
-				<div class="linksbox">
-					<h3><span class="blue"> ~ </span> <span class="pink">❯</span> [<span class="green">Reddit</span>]<span class="pink">:</span> ls</h3>
-			        <a class="cyan" target="blank" href="https://www.reddit.com/r/badcode">/r/badcode</a>
-			        <a class="cyan" target="blank" href="https://www.reddit.com/r/ProgrammerHumor/">/r/ProgrammerHumor</a>
-			        <a class="cyan" target="blank" href="https://www.reddit.com/r/unixporn/">/r/unixporn</a>
-					<a class="cyan" target="blank" href="https://www.reddit.com/r/talesfromtechsupport/">/r/talesfromtechsupport</a>
-					<a class="cyan" target="blank" href="https://www.reddit.com/r/EarthPorn/">/r/EarthPorn</a>
-					<a class="cyan" target="blank" href="https://www.reddit.com/r/VaporwaveAesthetics/">/r/VaporwaveAesthetics</a>
-				</div>
+  <body>
+    <div id="container">
 
-				<div class="linksbox">
-					<h3><span class="blue"> ~ </span> <span class="pink">❯</span> [<span class="green">University</span>]<span class="pink">:</span> ls</h3>
-			        <a class="red"  target="blank" href="#">Liverpool life</a>
-					<a class="red"  target="blank" href="#">Print Anywhere</a>
-			        <a class="cyan" target="blank" href="#">CS Department</a>
-					<a class="cyan" target="blank" href="#">COMP213</a>
-					<a class="cyan" target="blank" href="#">COMP201</a>
-					<a class="cyan" target="blank" href="#">COMP219</a>
-				</div>
+      <div id="searchbox">
+        <!-- klaz@internet ~ $ search -->
+	      <form method="get" action="https://www.google.com/search">
+		      <input type="text" autofocus="autofocus" name="q" \>
+	      </form>
+      </div> <!-- end searchbox -->
 
-			</div>
-		</div>
-	</body>
+      <div id="links">
+        <div class="box">
+          <!-- ~ $ cd ~/general -->
+          <h3><span class="magenta">~</span> <span class="blue">$</span> <span class="orange">cd</span> ~/<span class="green">general</span></h3>
+          <a href="https://calendar.google.com/">calendar</a>
+          <a href="https://mail.google.com/">gmail</a>
+          <a href="https://www.fastmail.com/login/">fastmail</a>
+          <a href="http://feedly.com/i/latest">feedly</a>
+          <a href="https://www.youtube.com/feed/subscriptions">youtube</a>
+          <a href="https://twitter.com/">twitter</a>
+        </div>
+
+        <div class="box">
+          <!-- ~ $ cd ~/reddit -->
+          <h3><span class="magenta">~</span> <span class="blue">$</span> <span class="orange">cd</span> ~/<span class="green">reddit</span></h3>
+          <a href="https://www.reddit.com/">front page</a>
+          <a href="https://www.reddit.com/r/games/">/r/games</a>
+          <a href="https://www.reddit.com/r/battlestations/">/r/battlestations</a>
+          <a href="https://www.reddit.com/r/pcmasterrace/">/r/pcmasterrace</a>
+          <a href="https://www.reddit.com/r/linuxmasterrace/">/r/linuxmasterrace</a>
+          <a href="https://www.reddit.com/r/unixporn/">/r/unixporn</a>
+          <a href="https://www.reddit.com/r/startpages/">/r/startpages</a>
+        </div>
+
+        <div class="box">
+          <!-- ~ $ cd ~/nerd -->
+          <h3><span class="magenta">~</span> <span class="blue">$</span> <span class="orange">cd</span> ~/<span class="green">nerd</span></h3>
+          <a href="https://github.com/">github</a>
+          <a href="http://gog.com/">gog</a>
+          <a href="http://store.steampowered.com/">steam</a>
+          <a href="https://news.ycombinator.com/">hacker news</a>
+          <a href="http://distrowatch.com/">distrowatch</a>
+          <a href="https://solus-project.com/">solus</a>
+        </div>
+      </div> <!-- end links -->
+
+    </div> <!-- end container -->
+
+    <!-- commands script -->
+    <script type="text/javascript" src="assets/search.js"></script>
+
+  </body>
+
 </html>
