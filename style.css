@@ -1,19 +1,11 @@
 /* -------------------------------------------------------------------
-  RESETS
----------------------------------------------------------------------- */
-
-html,
-body,
-h3 {
-  margin: 0;
-  padding: 0;
-}
-
-/* -------------------------------------------------------------------
   BASE
 ---------------------------------------------------------------------- */
 
 body {
+  background-color: #14051a;
+  color: #657b83;
+  font-family: "Iosevka", monospace;
   font-size: 15px;
 }
 
@@ -26,23 +18,19 @@ h3 {
 a, a:visited {
   display: block;
   padding-top: 2px;
-  color: #2aa198;
+  color: #49bbfb;
   text-decoration: none;
 }
-a:hover { color: #dc322f; }
+a:hover { color: #cb1ed1; }
 
 /* -------------------------------------------------------------------
-  COLOURS
+  COLORS
 ---------------------------------------------------------------------- */
 
-.blue     { color: #268bd2; }
-.cyan     { color: #2aa198; }
-.green    { color: #859900; }
-.magenta  { color: #d33682; }
-.orange   { color: #cb4b16; }
-.red      { color: #dc322f; }
-.violet   { color: #6c71c4; }
-.yellow   { color: #b58900; }
+.blue     { color: #087DC0; }
+.green    { color: #79e513; }
+.orange   { color: #b3d5da; }
+.pink	  { color: #847BE4; }
 
 /* -------------------------------------------------------------------
   LAYOUT
@@ -54,37 +42,26 @@ a:hover { color: #dc322f; }
   left: 0;
   right: 0;
   margin: 0 auto;
-  padding: 0 20px;
   width: 700px;
-  height: auto;
 }
 
 #searchbox {
   margin: 4px;
   padding: 8px;
-  background-color: #073642;
-  border: 5px solid #073642;
-  -webkit-box-shadow: 1px 1px 10px 0px #000;
-     -moz-box-shadow: 1px 1px 10px 0px #000;
-          box-shadow: 1px 1px 10px 0px #000;
+  border: 5px solid #14051a;
+  box-shadow: 1px 1px 10px 0px #000;
 }
 
 #links {
-  display: -moz-box;
   display: -webkit-box;
-  width: 100%;
 }
 
 .box {
-  -webkit-box-flex: 1;
   -moz-box-flex: 1;
   margin: 4px;
   padding: 8px;
-  background-color: #073642;
-  border: 5px solid #073642;
-  -webkit-box-shadow: 1px 1px 10px 0px #000;
-     -moz-box-shadow: 1px 1px 10px 0px #000;
-          box-shadow: 1px 1px 10px 0px #000;
+  border: 5px solid #14051a;
+  box-shadow: 1px 1px 10px 0px #000;
 }
 
 /* -------------------------------------------------------------------
@@ -96,10 +73,8 @@ form {
 }
 
 input 	{
-  display: inline;
   width: 64%;
   background: none;
   border: none;
-  color: #b58900;
-  font-size: 1em;
+  color: #0dcdcd;
 }
